@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Test</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <!-- Header -->
+      <header class="navbar">
+        <div class="navbar-top">
+          <div class="menu">
+            <img src="./assets/icons/Menu.png" alt="Menu icon" />
+          </div>
+          <div class="logo">
+            <img src="./assets/img/logo.png" alt="Logo image" />
+          </div>
+          <div class="icon">
+            <img src="./assets//icons/charm_search.png" alt="" />
+            <a href="/cart.html">
+              <img src="./assets//icons/shopping.png" alt="" />
+            </a>
+            <a href="./account.html">
+              <img src="./assets//icons/user-avatarpng.png" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="navbar-bottom">
+          <ul>
+            <li class="link">Trang chủ</li>
+            <li class="link">Giới thiệu</li>
+            <li class="link">
+              <div class="link-product">
+                <p>Sản phẩm</p>
+                <div class="link-product-list">
+                  <div class="list-col">
+                    <div class="list-title">Áo</div>
+                    <div class="list-item">Áo phông</div>
+                    <div class="list-item">Áo polo</div>
+                    <div class="list-item">Sweater</div>
+                    <div class="list-item">Hoodie</div>
+                    <div class="list-item">Jacket</div>
+                  </div>
+                  <div class="list-col">
+                    <div class="list-title">Quần</div>
+                    <div class="list-item">Pants</div>
+                    <div class="list-item">Shorts</div>
+                    <div class="list-item">Jeans</div>
+                  </div>
+                  <div class="list-col">
+                    <div class="list-title">Phụ kiện</div>
+                    <div class="list-item">Balo</div>
+                    <div class="list-item">Mũ</div>
+                    <div class="list-item">Khác</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="link">Sale</li>
+            <li class="link">Collection</li>
+            <li class="link">Liên hệ</li>
+          </ul>
+        </div>
+      </header>
+      <!-- Container -->
+      <div class="container">
+        <div class="cart">
+          <div class="receiver-infor">
+            <div class="cart-title">Thông tin nhận hàng</div>
+            <input type="text" placeholder="Email" />
+            <input type="text" placeholder="Họ và tên" />
+            <input type="text" placeholder="Số điện thoại" />
+            <input type="text" placeholder="Địa chỉ" />
+            <input type="text" placeholder="Tỉnh thành" />
+            <input type="text" placeholder="Quận huyện" />
+            <input type="text" placeholder="Phường xã" />
+            <input type="text" placeholder="Ghi chú (Tùy chọn)" />
+          </div>
+
+          <div class="order-method">
+            <div class="cart-title">Vận chuyển</div>
+            <button class="deliver-info">
+              Vui lòng nhập thông tin giao hàng
+            </button>
+            <div class="cart-title" style="margin-bottom: 10px">Thanh toán</div>
+            <input type="checkbox" name="pay" />
+            <label for="pay">Thanh toán khi giao hàng (COD)</label>
+          </div>
+
+          <div class="order-info">
+            <div class="cart-title">Đơn hàng (1 sản phẩm)</div>
+            <div class="divider divider-order"></div>
+            <div class="order-item">
+              <div class="order-item-detail">
+                <div class="item-avatar">
+                  <img src="./assets/icons/order-item-image.png" alt="" />
+                </div>
+                <div>
+                  <div class="item-name">HAHD Cardigan Kaki</div>
+                  <div class="item-category">Xám / L</div>
+                </div>
+              </div>
+              <div class="item-price">490.000đ</div>
+            </div>
+            <div class="divider divider-order"></div>
+            <div class="coupon">
+              <input type="text" placeholder="Nhập mã giảm giá" />
+              <button class="order-btn">Áp dụng</button>
+            </div>
+            <div class="divider divider-order"></div>
+            <div class="calculate">
+              <div class="calculate-item">
+                <p>Tạm tính</p>
+                <p>490.000đ</p>
+              </div>
+              <div class="calculate-item">
+                <p>Phí vận chuyển</p>
+              </div>
+              <div class="calculate-item">
+                <p>Freeship đơn hàng >500k</p>
+              </div>
+            </div>
+            <div class="divider divider-order"></div>
+            <div>
+              <div class="calculate-item total">
+                <p>Tổng cộng</p>
+                <p>499.000đ</p>
+              </div>
+            </div>
+            <button class="order-btn">Đặt hàng</button>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <footer>
+        <div class="footer-top">
+          <div class="special">
+            <div class="footer-logo">
+              <img src="./assets/img/logo.png" alt="" />
+            </div>
+            <div class="footer-item">
+              <img src="./assets/icons/Truck.png" alt="" />
+              <p>Ship COD toàn quốc</p>
+            </div>
+            <div class="footer-item">
+              <img src="./assets/icons/present.png" alt="" />
+              <p>FREESHIP đơn từ 500.000đ</p>
+            </div>
+          </div>
+
+          <div class="contact">
+            <p class="footer-title">Liên hệ</p>
+            <div class="footer-item">
+              <img src="./assets/icons/house.png" alt="" />
+              <p>ABC Store</p>
+            </div>
+            <div class="footer-item">
+              <img src="./assets/icons/location.png" alt="" />
+              <p>XYZ, Hà Nội</p>
+            </div>
+            <div class="footer-item">
+              <img src="./assets/icons/mail.png" alt="" />
+              <p>abcxyz@gmail.com</p>
+            </div>
+            <div class="footer-item">
+              <img src="./assets/icons/phone.png" alt="" />
+              <p>0123xxxxxx</p>
+            </div>
+          </div>
+
+          <div class="support">
+            <p class="footer-title">Trợ giúp</p>
+            <div class="footer-item">
+              <p>FAQ</p>
+            </div>
+            <div class="footer-item">
+              <p>Chính sách trả hàng</p>
+            </div>
+            <div class="footer-item">
+              <p>Chính sách bảo mật</p>
+            </div>
+          </div>
+
+          <div class="social">
+            <p class="footer-title">Theo dõi</p>
+            <div class="footer-item">
+              <img src="./assets/icons/fb.svg" alt="" />
+              <p>Facebook</p>
+            </div>
+            <div class="footer-item">
+              <img src="./assets/icons/instagram.svg" alt="" />
+              <p>Instagram</p>
+            </div>
+            <div class="footer-item">
+              <img src="./assets/icons/tiktok.svg" alt="" />
+              <p>Tiktok</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>Bản quyền thuộc về HAHD Store | Cung cấp bởi D20PTIT</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
